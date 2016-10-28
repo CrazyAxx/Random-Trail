@@ -8,6 +8,6 @@ function draw() {
   var b = random( 0 , 255 );
   var a = random( 0 , 75 )
   fill( r , g , b , a );
-  noStroke()
+  noStroke();
   ellipse( mouseX , mouseY , 50 , 50 );
 }s
